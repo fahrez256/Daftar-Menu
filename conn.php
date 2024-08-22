@@ -1,8 +1,8 @@
 <?php
-$servername = "sql110.infinityfree.com";
-$username = "if0_37095148";
-$password = "mikireen123";
-$dbname = "if0_37095148_menu";
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "daftar_menu";
 
 // Membuat koneksi
 $conn = new mysqli($servername, $username, $password, $dbname);
