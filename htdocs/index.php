@@ -602,8 +602,10 @@ $conn->close();
 		let encodedMessageWa = encodeURIComponent(messageWa);
 
 		// Send message to Telegram bot
-		let url = `https://api.telegram.org/bot7402146766:AAFe2pz-S4Edqko40eZvrLcvg3TCDTFts-Y/sendMessage?chat_id=7289796062&text=${encodedMessage}`;
-		let urlwa = `https://wa.me/+6285936596613?text=${encodedMessageWa}`;
+		let url = `https://api.telegram.org/bot{API_BOT}/sendMessage?chat_id={CHAT_ID_KASIR}&text=${encodedMessage}`;
+
+		// Send message manual to WhatsApp if failed using Telegram Bot
+		let urlwa = `https://wa.me/+62{NO_WA_KASIR}?text=${encodedMessageWa}`;
 
 		fetch(url)
 			.then(response => response.json())
