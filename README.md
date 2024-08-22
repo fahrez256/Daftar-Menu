@@ -57,4 +57,4 @@ For more information, feel free to reach out:
 
 - **Name**: Fahreza Raditya Busan
 - **Email**: fahreza.raditya.busan@gmail.com
-- **GitHub**: this
+- **GitHub**: https://github.com/fahrez256
