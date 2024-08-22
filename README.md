@@ -24,7 +24,7 @@ To run this project locally, follow these steps:
 
 1. **Clone the repository (if applicable):**
 ```
-git clone https://github.com/fahrez256/daftar-menu.git`
+git clone https://github.com/fahrez256/Daftar-Menu.git
 cd daftar-menu
 ```
 
