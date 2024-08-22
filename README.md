@@ -23,18 +23,20 @@
 To run this project locally, follow these steps:
 
 1. **Clone the repository (if applicable):**
-   - `git clone https://github.com/fahrez256/daftar-menu.git`
-   - `cd daftar-menu`
+```
+git clone https://github.com/fahrez256/daftar-menu.git`
+cd daftar-menu
+```
 
-2. **Set up the backend:**
+3. **Set up the backend:**
    - Ensure you have a PHP server running (e.g., XAMPP, MAMP).
    - Place the project files in the server's root directory.
 
-3. **Configure Telegram Bot:**
+4. **Configure Telegram Bot:**
    - Create a new bot on Telegram using the BotFather.
    - Get your API token and replace it in the project's configuration file.
 
-4. **Start the server:**
+5. **Start the server:**
    - Navigate to the project URL in your browser.
 
 ## 🔍 Usage
