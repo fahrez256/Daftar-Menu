@@ -47,11 +47,10 @@ cd daftar-menu
    - Browse the menu and select items you wish to order.
    - Submit your order, which will be sent to the cashier via the Telegram Bot.
 
-## 🛠 Challenges
-One of the main challenges was finding a cost-effective and straightforward method to deliver orders to the cashier. The solution was found in the Telegram Bot API, which allows for easy and reliable communication between the customer's order and the restaurant's cashier system.
-
-## 🎯 Results
-The implementation of this project has significantly improved the ordering process in the restaurant, making it easier for customers to place orders without needing to leave their seats. This solution is particularly beneficial in multi-floor establishments.
+## ⚠️ Limitations
+- **No CRUD Functionality**: The project lacks a CRUD (Create, Read, Update, Delete) interface for managing the menu items. All menu updates must be done manually in the code, which can be cumbersome and error-prone.
+- **Manual Configuration**: Adjustments to the menu or bot settings require manual changes in the configuration files, which may not be user-friendly for non-technical users.
+- **Experimental Nature**: This project was developed as a proof-of-concept to explore the use of the Telegram Bot API and may not include all features expected in a full-fledged menu management system.
 
 ## 📞 Contact
 For more information, feel free to reach out:
